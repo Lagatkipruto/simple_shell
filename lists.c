@@ -51,8 +51,8 @@ list_t *add_node_end(list_t **head, const char *str, int num)
 	new_node = malloc(sizeof(list_t));
 	if (!new_node)
 		return (NULL);
-	_memset((void *)new_node, 0, sizeof(list_t))
-		new_node->num = num;
+	_memset((void *)new_node, 0, sizeof(list_t));
+	new_node->num = num;
 	if (str)
 	{
 		new_node->str = _strdup(str);
