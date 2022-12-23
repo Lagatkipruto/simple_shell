@@ -13,7 +13,7 @@ Output
 
 Unless specified otherwise, your program must have the exact same output as sh (/bin/sh) as well as the exact same error output.
 
-The only difference is when you print an error, the name of the program must be equivalent to your argv[0] (See below)
+The only difference is when you print an error, the name of the program must be equivalen
 
 	Example of error with sh:
 
@@ -44,17 +44,16 @@ The only difference is when you print an error, the name of the program must be 
 	$
 
 
-	Compilation
-
-	Your shell will be compiled this way:
+Compilation
+My shell will be compiled this way:
 
 
 
 	gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 
-	Testing
+Testing
 
-	Your shell should work like this in interactive mode:
+My shell should work like this in interactive mode:
 
 
 
@@ -89,13 +88,3 @@ The only difference is when you print an error, the name of the program must be 
 	$
 
 	$ cat test_ls_2 | ./hsh
-
-	hsh main.c shell.c test_ls_2
-
-	hsh main.c shell.c test_ls_2
-
-	$
-
-	Checks
-
-	The Checker will be released at the end of the project (1-2 days before the deadline). We strongly encourage the entire class to work together to create a suite of checks covering both regular tests and edge cases for each task. See task 8. Test suite.
